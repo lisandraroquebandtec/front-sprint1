@@ -251,4 +251,36 @@ footer {
   padding-left: 10px;
 }
 
+.footer__contacts__links {
+  background-color: #e6e5e5;
+  display: flex;
+}
+
+.contacts {
+  display: flex;
+}
+
+.links a {
+  text-decoration: none;
+  color: #111111;
+}
+
+.footer__payment__social__acessibility {
+  display: flex;
+  justify-content: space-between;
+}
+
+.payment {
+  display: flex;
+}
+
+.social {
+  display: flex;
+}
+
+.footer__copyright__complaints {
+  display: flex;
+  background-color: #e6e5e5;
+}
+
 /*# sourceMappingURL=styles.css.map */

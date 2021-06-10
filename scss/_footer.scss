@@ -64,4 +64,32 @@ footer{
       }
   }
   
+  .footer__contacts__links{
+    background-color:$cinza;
+    display: flex;
+  }
   
+  .contacts{
+    display: flex;
+  }
+
+  .links a{
+    text-decoration: none;
+    color: $preto;
+  }
+
+  .footer__payment__social__acessibility{
+    display: flex;
+    justify-content: space-between;
+  }
+  .payment{
+    display: flex;
+  }
+  .social{
+    display: flex;
+  }
+
+  .footer__copyright__complaints{
+    display: flex;
+    background-color:$cinza;
+  }
