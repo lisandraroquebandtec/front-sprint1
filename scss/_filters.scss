@@ -1,0 +1,23 @@
+///estilização de filters
+
+.filters{
+    max-width: 90%;
+    margin: auto;
+    padding: 10px;
+    border-top: 1px solid $cinza;
+    text-transform: uppercase;
+  
+    & ul{
+      display: flex;
+    }
+  
+    & ul li{
+      padding: 10px;
+    }
+  
+    & ul li img{
+      vertical-align:middle;
+      width: 20px;
+      height: 20px;
+    }
+  }

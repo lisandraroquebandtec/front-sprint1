@@ -8,6 +8,8 @@
     <link rel="shortcut icon" type="image/png" href="assets/favicon.png" />
     <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/styles.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
     <script>
       document.write(
         '<script src="http://' +
@@ -18,52 +20,58 @@
     </script>
   </head>
   <body>
-    <header>
-      <h1>
-        <img src="assets/riachuelo.svg" alt="" />
+    <header class="header">
+      <h1 class="header__logo" >
+        <img class="logo2" src="assets/riachuelo.svg" alt="Logo da riachuelo" />
+        <div class="header__menu__burguer"><img src="assets/menu.svg" alt=""> menu</div>
+        <div class="header__menu__logo"><img class="logo"src="assets/rchlo.svg" alt="Logo da riachuelo"></div>
+        <div class="header__menu__burguer__closed"><img src="assets/close.svg"  alt=""> menu</img>
       </h1>
-      <input type="search" placeholder="O quê você está procurando" />
-      <nav>
-        <ul>
-          <li><a href="">Novidades</a></li>
-          <li><a href="">Feminimo</a></li>
-          <li><a href="">Masculino</a></li>
-          <li><a href="">Infantil</a></li>
-          <li><a href="">Moda Íntima</a></li>
-          <li><a href="">Calçados</a></li>
-          <li><a href="">Acessórios e Relógios</a></li>
-          <li><a href="">Beleza e Perfume</a></li>
-          <li><a href="">Casa Riachuelo</a></li>
-          <li><a href="">Eletrônicos</a></li>
-          <li><a href="">Personagens</a></li>
-          <li><a href="">Outlet</a></li>
+      <div class="header__search-container">
+        <img class="header__search-image" src="./assets/search.svg" alt="Icone de lupa">
+      <input class="header__search" type="search" placeholder="O que você está procurando ?" />
+      </div>
+      <nav class="header__menu">
+        <ul class="menu__list">
+          <li class="menu__links"><a href="">Novidades</a></li>
+          <li class="menu__links"><a href="">Feminino</a></li>
+          <li class="menu__links"><a href="">Masculino</a></li>
+          <li class="menu__links"><a href="">Infantil</a></li>
+          <li class="menu__links"><a href="">Moda Íntima</a></li>
+          <li class="menu__links"><a href="">Calçados</a></li>
+          <li class="menu__links"><a href="">Acessórios e Relógios</a></li>
+          <li class="menu__links"><a href="">Beleza e Perfume</a></li>
+          <li class="menu__links"><a href="">Casa Riachuelo</a></li>
+          <li class="menu__links"><a href="">Eletrônicos</a></li>
+          <li class="menu__links"><a href="">Personagens</a></li>
+          <li class="menu__links"><a href="">Outlet</a></li>
         </ul>
       </nav>
     </header>
     <main>
       <section class="breadcrumbs">
         <nav>
-          <ol>
-            <li><a href="">Home</a></li>
-            <li><a href="">Infantil</a></li>
-            <li><a href="">Personagens</a></li>
-            <li>Mario Bros</li>
+          <ol class="breadcrumbs__lista">
+            <li class="breadcrumns__lista__links"><a href="">Home </a></li>
+            <li class="breadcrumns__lista__links"><a href="">Infantil </a></li>
+            <li class="breadcrumns__lista__links"><a href="">Personagens </a></li>
+            <li class="breadcrumns__lista__links">Mario Bros</li>
           </ol>
         </nav>
       </section>
       <section class="filters">
         <ul>
-          <li>Tamanho</li>
-          <li>Cor</li>
-          <li>Departamento</li>
-          <li>Categoria</li>
-          <li>Manga</li>
+          <li>Tamanho <img src="./assets/filter.svg" alt=""></li>
+          <li>Cor <img src="./assets/filter.svg" alt=""></li>
+          <li>Departamento <img src="./assets/filter.svg" alt=""></li>
+          <li>Categoria <img src="./assets/filter.svg" alt=""></li>
+          <li>Manga <img src="./assets/filter.svg" alt=""></li>
         </ul>
       </section>
 
       <section class="products">
-        <ol>
-          <li>
+        <ol class="products__lista">
+          <li class="products__lista__item">
             <div>
               <img src="assets/c1.webp" alt="Camisa 1" />
               <p>
@@ -72,7 +80,7 @@
               <p>R$ 199,90</p>
             </div>
           </li>
-          <li>
+          <li class="products__lista__item">
             <div>
               <img src="assets/c2.webp" alt="Camisa 1" />
               <p>
@@ -81,7 +89,7 @@
               <p>R$ 199,90</p>
             </div>
           </li>
-          <li>
+          <li class="products__lista__item">
             <div>
               <img src="assets/c3.webp" alt="Camisa 1" />
               <p>
@@ -90,7 +98,7 @@
               <p>R$ 199,90</p>
             </div>
           </li>
-          <li>
+          <li class="products__lista__item">
             <div>
               <img src="assets/c4.webp" alt="Camisa 1" />
               <p>
@@ -99,7 +107,7 @@
               <p>R$ 199,90</p>
             </div>
           </li>
-          <li>
+          <li class="products__lista__item">
             <div>
               <img src="assets/c5.webp" alt="Camisa 1" />
               <p>
@@ -108,7 +116,7 @@
               <p>R$ 199,90</p>
             </div>
           </li>
-          <li>
+          <li class="products__lista__item">
             <div>
               <img src="assets/c6.webp" alt="Camisa 1" />
               <p>
@@ -117,7 +125,7 @@
               <p>R$ 199,90</p>
             </div>
           </li>
-          <li>
+          <li class="products__lista__item">
             <div>
               <img src="assets/c7.webp" alt="Camisa 1" />
               <p>
@@ -126,7 +134,7 @@
               <p>R$ 199,90</p>
             </div>
           </li>
-          <li>
+          <li class="products__lista__item">
             <div>
               <img src="assets/c8.webp" alt="Camisa 1" />
               <p>
@@ -135,7 +143,7 @@
               <p>R$ 199,90</p>
             </div>
           </li>
-          <li>
+          <li class="products__lista__item">
             <div>
               <img src="assets/c9.webp" alt="Camisa 1" />
               <p>
@@ -144,7 +152,7 @@
               <p>R$ 199,90</p>
             </div>
           </li>
-          <li>
+          <li class="products__lista__item">
             <div>
               <img src="assets/c10.webp" alt="Camisa 1" />
               <p>
@@ -153,7 +161,7 @@
               <p>R$ 199,90</p>
             </div>
           </li>
-          <li>
+          <li class="products__lista__item">
             <div>
               <img src="assets/c11.webp" alt="Camisa 1" />
               <p>
@@ -162,7 +170,7 @@
               <p>R$ 199,90</p>
             </div>
           </li>
-          <li>
+          <li class="products__lista__item">
             <div>
               <img src="assets/c12.webp" alt="Camisa 1" />
               <p>
@@ -175,9 +183,13 @@
       </section>
     </main>
     <footer>
+      <div class="footer__offers__mobile">
       <div class="offers">
         <p>Receba ofertas e novidades por e-mail</p>
         <form action="/">
+          <select>
+            <option value="">Interesses</option>
+          </select>
           <input type="email" placeholder="Digite aqui seu e-mail" />
           <button type="submit">Cadastrar</button>
         </form>
@@ -187,6 +199,7 @@
         <img src="assets/google-play.webp" alt="Google Play" />
         <img src="assets/app-store.webp" alt="App Store" />
       </div>
+    </div>
       <div class="contacts">
         <div>
           <img width="50px" src="assets/ico-attendance.svg" alt="Atendimento" />

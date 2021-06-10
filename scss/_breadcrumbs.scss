@@ -1,0 +1,27 @@
+///estilização do breadcrumbs
+.breadcrumbs{
+    padding: 20px;
+    border-top: 1px solid $cinza;
+    font-weight: bold;
+    margin: auto;
+  
+    &__lista{
+      display: flex;
+      list-style: none;
+      margin-left: 4.1%;
+    }
+  
+   &__lista a {
+     text-decoration: none;
+     color: $cinza-medio;
+     padding: 10px;
+   } 
+  
+   &__lista li:nth-child(4){
+      font-weight: bold;
+   }
+  
+   &__lista a:after{
+    content: " /" ;
+  }
+  }

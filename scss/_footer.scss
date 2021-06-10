@@ -1,0 +1,67 @@
+footer{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.8125rem;
+    border-top: 1px solid  $cinza;
+  }
+
+  .footer__offers__mobile{
+    padding: 8px;
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  .offers{
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+    padding: 10px;
+    align-items: center;
+    height: 48px;
+
+    & select{
+        border: none;
+        border-bottom: 1px solid $preto;
+        font-style:italic;
+        font-weight: bold;
+      }
+      
+      & input{
+        border: none;
+        border-bottom: 1px solid $preto;
+        font-style:italic;
+        font-weight: bold;
+      }
+      
+      & button{
+        border: none;
+        border-radius: 5px;
+        height: 30px;
+        color: $cinza-medio;
+        padding: 6px;
+      }
+      
+      & form{
+        display: flex;
+        justify-content: space-around;
+        width: 337px;
+      }
+  }
+  
+  .mobile-apps{
+    display: flex;
+    width: 400px;
+    padding: 10px;
+    align-items: center;
+
+    & img{
+        height: 90%;
+        width: 110px;
+        padding-left: 10px;
+      }
+  }
+  
+  

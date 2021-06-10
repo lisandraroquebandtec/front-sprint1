@@ -1,0 +1,28 @@
+///estilizando a parte de produtos
+.products{
+    max-width: 90%;
+    margin: auto;
+    padding: 10px;
+    border-top: 1px solid $cinza;
+
+    &__lista{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+    }
+    
+    &__lista__item{
+      width: 22.5%;
+      margin: 1%;
+      line-height: 1.5;
+      color: $cinza-medio;
+      text-align: center;
+      text-transform: uppercase;
+    }
+
+    &__lista__item div> img + p+ p{
+      font-weight: bold;
+      color: $preto;
+      padding: 8px;
+    }
+}
