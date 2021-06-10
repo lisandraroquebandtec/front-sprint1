@@ -1,5 +1,5 @@
 footer{
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Raleway", sans-serif;
     font-size: 0.8125rem;
     border-top: 1px solid  $cinza;
   }
@@ -67,29 +67,142 @@ footer{
   .footer__contacts__links{
     background-color:$cinza;
     display: flex;
+    height: 60vh;
   }
   
   .contacts{
+    padding: 10px;
     display: flex;
+    width:25vw;
+    flex-wrap: wrap;
+    font-weight: bold;
+
+    & div{
+      width: 50%;
+      height: 50%;
+      text-align: center;
+      line-height: 0.8;
+    }
+  
+    & div img {
+      margin-top: 45px;
+    }
+  
+    & div p{
+      padding: 0 28px;
+      line-height: 1.5;
+    }
   }
 
-  .links a{
-    text-decoration: none;
-    color: $preto;
+  
+
+  .links{
+    width: 75vw;
+    border-left: 1px solid $cinza-claro;
+
+    &__section{
+      width: 20%;
+      padding: 2%;
+    }
+  
+    & ul{
+      display: flex;
+      flex-wrap: wrap;
+    }
+  
+    & a{
+      text-decoration: none;
+      color: $preto;
+      line-height: 3;
+      font-size: 13px;
+    }
+    & h3{
+      color: $preto;
+      font-weight: bold;
+      font-size: 16px;
+      text-transform: uppercase;
+    }
   }
+  
+ 
 
   .footer__payment__social__acessibility{
     display: flex;
     justify-content: space-between;
+    margin: 1% 4%  ;
   }
+
   .payment{
     display: flex;
+    flex-direction: column;
+    width: 37%;
+    color: $preto;
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: uppercase;
+
+    &__imgs {
+      display: flex;
+      justify-content: space-around;
+      margin-top: 15px;
+    }
   }
+
   .social{
     display: flex;
+    flex-direction: column;
+    width: 35%;
+    color: $preto;
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: uppercase;
+    
+    &__imgs{
+      display: flex;
+      justify-content: space-between;
+      margin-top: 15px;
+
+      &__conjunto{
+        flex-direction: column;
+        text-align: center;
+        width: 40px;
+      }
+    }
+    & img{
+      width: 20px;
+      height: 20px;
+    }
+}
+  
+  .accessibility{
+    display: flex;
+    flex-direction: column;
+    width: 19%;
+    color: $preto;
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: uppercase;
+
+    & img{
+      width: 20px;
+      height: 20px;
+      margin-top: 15px;
   }
+}
+
 
   .footer__copyright__complaints{
     display: flex;
+    justify-content: space-around;
     background-color:$cinza;
+  }
+  .copyright{
+    padding: 35px;
+    font-size: 8px;
+    align-self:center;
+  }
+  .complaints{
+    text-align: center;
+    width: 30%;
+    padding: 30px;
   }
