@@ -10,12 +10,6 @@ $cinza-medio: #646262;
 $preto: #111111;
 
 
-@mixin for-phone {
-  @media(max-width: 768px){
-    @content;
-  }
-}
-
 @import 'header', 'breadcrumbs', 'filters', 'products', 'footer';
 
 

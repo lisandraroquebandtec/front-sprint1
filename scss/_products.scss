@@ -26,3 +26,12 @@
       padding: 8px;
     }
 }
+
+@media  screen and (max-width: 768px){
+  .products{
+  max-width: 90%;
+  &__lista__item{
+    width: 40.5%;
+  }
+}
+  }

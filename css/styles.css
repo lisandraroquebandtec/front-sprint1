@@ -50,8 +50,9 @@ body {
   display: none;
   width: 40px;
   height: 40px;
-  align-items: center;
+  text-align: center;
   line-height: 0.2;
+  color: #b4b3b3;
 }
 .header__menu .menu__list {
   padding-top: 20px;
@@ -187,6 +188,14 @@ body {
   padding: 8px;
 }
 
+@media screen and (max-width: 768px) {
+  .products {
+    max-width: 90%;
+  }
+  .products__lista__item {
+    width: 40.5%;
+  }
+}
 footer {
   font-family: "Raleway", sans-serif;
   font-size: 0.8125rem;
